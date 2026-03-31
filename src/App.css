@@ -1,0 +1,40 @@
+.formcontainer {
+  width: 300px;
+  padding: 50px;
+  background-color: #90cce0;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.formcontainer div {
+  margin: 30px;
+}
+.submit {
+  padding: 07px 35px;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: #035c93;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border-bottom: 1px solid rgb(3, 38, 69);
+}
