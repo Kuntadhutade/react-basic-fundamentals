@@ -1,0 +1,28 @@
+nav {
+  background-color: rgb(2, 2, 81);
+
+  display: flex;
+
+  padding: 8px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.logodiv{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
