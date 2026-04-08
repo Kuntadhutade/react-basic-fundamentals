@@ -1,5 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fade;
+  margin: 0;
+  padding: 0;
+}
+
 nav ul li {
   list-style: none;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #ffd369;
 }
 
 nav ul {
@@ -14,20 +26,33 @@ nav ul {
 
 nav {
   display: flex;
-  /* justify-content: space-between; */
-  justify-content: space-around;
-  background-color: rgb(229, 200, 162);
-  height: 35px;
+  justify-content: space-between;
 
+  padding: 10px 30px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
   align-items: center;
+}
+
+main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 label {
   display: block;
-}
-
-form {
-  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 h1,
@@ -35,14 +60,32 @@ h2 {
   text-align: center;
 }
 
-input[type="text"] {
-  width: 40vw;
-  height: 25px;
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 textarea {
-  width: 40vw;
   height: 100px;
+}
+
+.submit {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: #010828;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: #5a67d8;
 }
 
 .card {
@@ -63,7 +106,7 @@ textarea {
   font-size: 22px;
 }
 
-.containers{
+.containers {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,11 +120,13 @@ textarea {
   flex-direction: column;
   display: flex;
   margin-top: 23px;
+  text-align: center;
 }
 
-
-.del{
+.del {
   position: absolute;
   right: 05px;
   cursor: pointer;
+  color: red;
+  font-size: 20px;
 }
