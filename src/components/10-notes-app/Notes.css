@@ -1,0 +1,87 @@
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  background-color: rgb(229, 200, 162);
+  height: 35px;
+
+  align-items: center;
+}
+
+label {
+  display: block;
+}
+
+form {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 40vw;
+  height: 25px;
+}
+
+textarea {
+  width: 40vw;
+  height: 100px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(5, 17, 78);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.card .title {
+  text-align: center;
+  font-size: 22px;
+}
+
+.containers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.noteSection {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  margin-top: 23px;
+}
+
+
+.del{
+  position: absolute;
+  right: 05px;
+  cursor: pointer;
+}
