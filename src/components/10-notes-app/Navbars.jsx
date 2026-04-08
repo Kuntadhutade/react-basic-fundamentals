@@ -61,7 +61,7 @@ function Navbars() {
             <label htmlFor="desc">Description</label>
             <textarea name="desc" id="desc" onChange={handleChange} value={currentNote.desc}></textarea>
           </div>
-          <button>Submit</button>
+          <button className="submit">Submit</button>
         </form>
       </main>
       <section className='noteSection'>
